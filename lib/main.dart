@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'dope_animatiosns.dart';
+import 'onboarding_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const DopeAnimations(),
+      home: const OnboardingScreen(),
     );
   }
 }
